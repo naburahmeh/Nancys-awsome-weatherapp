@@ -12,7 +12,7 @@ function search(event) {
   let city = searchInputElement.value;
 
   let apiKey = "b33862d908c4feta1cbo2fc0155044183";
-  let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
+  let apiUrl = `https://api.shecodes.io/weather/v1/current?query=Lisbon&key=b33862d908c4feta1cbo2fc015504418&units=metric`;
 
   axios.get(apiUrl).then(displayTemperature);
 }
